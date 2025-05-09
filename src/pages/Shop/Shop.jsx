@@ -40,7 +40,7 @@ const Shop = () => {
     <section
         id="banner"
         className="flex flex-col justify-center items-center h-[40vh] bg-cover bg-center"
-        style={{ backgroundImage: "url('/public/banner/b1.jpg')" }}
+        style={{ backgroundImage: "url('/banner/b1.jpg')" }}
     >
         <h1 className="text-white text-6xl font-bold ">#Stayhome</h1>
         <h2 className="text-white text-1xl text-center py-2">

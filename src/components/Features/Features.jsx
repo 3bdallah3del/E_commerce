@@ -2,12 +2,12 @@ import React from 'react'
 
 const Features = () => {
     const features = [
-        { img: "/public/features/f1.png", title: "Free shipping", bg: "bg-[#fddde4]" },
-        { img: "/public/features/f2.png", title: "Online order", bg: "bg-[#cdebbc]" },
-        { img: "/public/features/f3.png", title: "Save Money", bg: "bg-[#d1e8f2]" },
-        { img: "/public/features/f4.png", title: "Promotions", bg: "bg-[#cdd4f8]" },
-        { img: "/public/features/f5.png", title: "Happy Sell", bg: "bg-[#f6dbf6]" },
-        { img: "/public/features/f6.png", title: "F 24/7 Support", bg: "bg-[#fff2e5]" },
+        { img: "/features/f1.png", title: "Free shipping", bg: "bg-[#fddde4]" },
+        { img: "/features/f2.png", title: "Online order", bg: "bg-[#cdebbc]" },
+        { img: "/features/f3.png", title: "Save Money", bg: "bg-[#d1e8f2]" },
+        { img: "/features/f4.png", title: "Promotions", bg: "bg-[#cdd4f8]" },
+        { img: "/features/f5.png", title: "Happy Sell", bg: "bg-[#f6dbf6]" },
+        { img: "/features/f6.png", title: "F 24/7 Support", bg: "bg-[#fff2e5]" },
       ];
   return (
     <section

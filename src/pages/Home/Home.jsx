@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div id='home'>
         <Navbar/>
-        <section className="h-[90vh] w-full bg-cover bg-no-repeat bg-[url('/public/hero4.png')] bg-[top_25%_right_0] flex flex-col justify-center items-start px-10 md:px-20 ">
+        <section className="h-[90vh] w-full bg-cover bg-no-repeat bg-[url('/hero4.png')] bg-[top_25%_right_0] flex flex-col justify-center items-start px-10 md:px-20 ">
             <h4 className="pb-4 text-sm md:text-lg font-semibold">Trade-in-offer</h4>
             <h2 className=" text-xl md:text-3xl font-bold">Super Value deals</h2>
             <h1 className=" text-3xl md:text-5xl font-extrabold text-Text-color leading-normal">On All products</h1>
