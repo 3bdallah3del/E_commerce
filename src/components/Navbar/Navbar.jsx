@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
         <nav className='flex sticky top-0 z-20 bg-light text-basic px-6 py-4 m-auto items-center justify-between '>
         
-           <a href=""><img src="/public/logo.png" alt="logo" /></a> 
+           <a href=""><img src="/logo.png" alt="logo" /></a> 
 
           <div className="hidden md:block">
               <ul className="flex gap-4 font-bold text-lg cursor-pointer items-center">

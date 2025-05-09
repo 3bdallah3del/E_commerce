@@ -5,7 +5,7 @@ const Banner = () => {
     <section
         id="banner"
         className="flex flex-col justify-center items-center h-[40vh] bg-cover bg-center"
-        style={{ backgroundImage: "url('/public/banner/b2.jpg')" }}
+        style={{ backgroundImage: "url('/banner/b2.jpg')" }}
 >
         <h4 className="text-white text-sm">Repair services</h4>
         <h2 className="text-white text-2xl text-center py-2">

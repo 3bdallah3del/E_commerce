@@ -13,7 +13,7 @@ const Featured = () => {
     setisOpen(true);
   };
   useEffect(() => {
-    fetch('/public/products.json')
+    fetch('/products.json')
       .then((response) => response.json())
       .then((data) => {
         const featured = data.filter(product => product.isFeatured === true);

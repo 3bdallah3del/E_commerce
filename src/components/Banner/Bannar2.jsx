@@ -8,7 +8,7 @@ const Bannar2 = () => {
             {/* Box 1 */}
             <div
                 className="flex flex-col justify-center items-start bg-cover bg-center w-full md:w-[650px] md:m-auto h-[50vh] px-4 md:px-10 transition-all duration-300 ease-in-out"
-                style={{ backgroundImage: "url('/public/banner/b17.jpg')" }}
+                style={{ backgroundImage: "url('/banner/b17.jpg')" }}
             >
                 <h4 className="text-white text-[16px] md:text-[20px]">crazy deals</h4>
                 <h2 className="text-white text-[30px] md:text-[50px] mt-[10px] md:mt-[15px]">buy 1 get 1 free</h2>
@@ -23,7 +23,7 @@ const Bannar2 = () => {
             {/* Box 2 */}
             <div
                 className="flex flex-col justify-center items-start bg-cover bg-center w-full md:w-[650px] md:m-auto h-[50vh] px-4 md:px-10 transition-all duration-300 ease-in-out"
-                style={{ backgroundImage: "url('/public/banner/b10.jpg')" }}
+                style={{ backgroundImage: "url('/banner/b10.jpg')" }}
             >
                 <h4 className="text-white text-[16px] md:text-[20px]">Spring/Summer</h4>
                 <h2 className="text-white text-[30px] md:text-[50px] mt-[10px] md:mt-[15px]">Upcoming season</h2>
@@ -39,9 +39,9 @@ const Bannar2 = () => {
       {/* banner3 section */}
       <section className="flex flex-wrap justify-between px-4 md:px-[85px] mt-6 w-full" id="banner3">
         {[
-          "/public/banner/b7.jpg",
-          "/public/banner/b4.jpg",
-          "/public/banner/b18.jpg"
+          "/banner/b7.jpg",
+          "/banner/b4.jpg",
+          "/banner/b18.jpg"
         ].map((bg, i) => (
           <div
             key={i}
